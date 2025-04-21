@@ -1,0 +1,140 @@
+/* -------------------media query for size of 768px to 992px-----------------------*/
+
+@media (min-width:768px) and (max-width:991.98px) {
+
+    .promo-title {
+        line-height: 40px;
+    }
+
+    .contact-1 {
+        text-align: center;
+    }
+
+    .col-md-6 .about-title {
+        font-size: 2em;
+    }
+
+    .testimonails {
+        margin-top: 0px;
+    }
+
+    .col-md-6 ul li {
+        font-size: 0.9em;
+    }
+
+    .container h1 {
+        font-size: 2rem;
+    }
+
+    .col-md-4 sub {
+        font-size: 1.5rem;
+    }
+
+    .navbar-nav .nav-item {
+        font-size: 0.8em;
+        line-height: 6px;
+    }
+
+    .col-md-6 .img-fluid {
+        height: 300px;
+        width: 300px;
+    }
+
+    #testimonail {
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+
+    #social-media {
+        padding: 40px 0px;
+    }
+
+    .container .testimonail-game {
+        margin-top: 50px !important;
+    }
+
+    #social-media p {
+        font-size: 26px;
+    }
+}
+
+/* -------------------media query for size of 576px to 768px-----------------------*/
+
+@media (min-width:576px) and (max-width:767.98px) {
+
+    .navbar-nav .nav-item {
+        font-size: 0.8em;
+        line-height: 6px;
+    }
+
+    .promo-title {
+        margin-top: 30px;
+    }
+
+    .col-md-6 .img-fluid {
+        height: 300px;
+        width: 300px;
+    }
+
+    .col-md-6.testimonails {
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+
+    #social-media p {
+        font-size: 26px;
+    }
+
+    #social-media {
+        padding: 30px;
+    }
+}
+
+/* -------------------media query for size of 320px to 576px-----------------------*/
+
+@media (min-width:320px) and (max-width:575.98px) {
+
+    .navbar-nav .nav-item {
+        font-size: 0.8em;
+        line-height: 6px;
+    }
+
+    .promo-title {
+        margin-top: 30px;
+    }
+
+    .col-md-6 .img-fluid {
+        height: 250px;
+        width: 250px;
+    }
+
+    .promo-title {
+        line-height: 40px;
+        font-size: 1.8rem;
+    }
+
+    .about-title {
+        font-size: 30px;
+    }
+
+    .row.testimonail-game.offset-1 {
+        margin-top: 0px !important;
+    }
+
+    .col-md-6.testimonails {
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+
+    #social-media p {
+        font-size: 22px;
+    }
+
+    #social-media {
+        padding: 30px;
+    }
+
+    #about-us {
+        padding-top: 0px;
+    }
+}
